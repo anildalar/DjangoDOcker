@@ -1,0 +1,10 @@
+There are 3 Ways to install Django in DOcker
+
+1. Docker Registory  https://hub.docker.com
+2. Install on the HOST Machine (Recomended)
+
+
+
+
+I have to activate the virtual environment
+.\myenv\Scripts\activate
