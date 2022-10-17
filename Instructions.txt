@@ -1,7 +1,17 @@
 There are 3 Ways to install Django in DOcker
 
 1. Docker Registory  https://hub.docker.com
-2. Install on the HOST Machine (Recomended)
+
+2. Install on the HOST Machine (Recomended) Then move to the container
+		2.1  Django Install
+		2.2 Django Project Setup
+					django-admin startproject projname location
+
+		2.3 Run the Django Project
+	
+
+3. Copy the Dockerfile inside the container and then install
+		docker image build -t imagename:tagname .
 
 
 
